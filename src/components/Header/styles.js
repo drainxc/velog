@@ -7,6 +7,7 @@ export const HeaderDiv = styled.div`
     align-items: center;
     margin: 0px 3em;
     margin-bottom: 3em;
+    border-radius: 12px;
     .logo {
       width: 150px;
     }

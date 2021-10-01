@@ -12,7 +12,7 @@ export default function Mainpage() {
             title={post.title}
             writer={post.name}
             backgroundImage={post.cover_url}
-            contents={post.descriptionx}
+            contents={post.description}
           />
         ))}
       </div>
