@@ -1,13 +1,5 @@
-import Header from "./components/Header/index";
-import Mainpage from "./components/MainPage";
+import Container from "./components/Container";
 
 export default function App() {
-  return (
-    <>
-      <body>
-        <Header />
-        <Mainpage />
-      </body>
-    </>
-  );
+  return <Container />;
 }
