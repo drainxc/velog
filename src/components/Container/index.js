@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "../Header";
 import Mainpage from "../MainPage";
+import PostDetail from "../PostDetail";
 
 export default function container() {
   return (
@@ -10,6 +11,9 @@ export default function container() {
           <Route exact path="/">
             <Header />
             <Mainpage />
+          </Route>
+          <Route path="/detail">
+              <PostDetail/>
           </Route>
         </Switch>
       </BrowserRouter>

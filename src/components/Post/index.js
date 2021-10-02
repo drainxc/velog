@@ -1,5 +1,6 @@
 import { useState } from "react";
 import * as S from "./style";
+import { Link } from "react-router-dom";
 
 export default function Post({ title, writer, backgroundImage, contents }) {
   const [onMouse, SetOnMouse] = useState(false);
@@ -14,15 +15,17 @@ export default function Post({ title, writer, backgroundImage, contents }) {
 
   return (
     <S.PostDiv onMouseOver={onMouseOverEvent} onMouseLeave={onMouseLeaveEvent}>
-      <div className={onMouse ? "increase" : "main"}>
-        <img src={backgroundImage} alt="" />
-        <div className="post">
-          <div className="title">{title}</div>
-          <div className="contents">{contents}</div>
+      <Link to="/detail">
+        <div className={onMouse ? "increase" : "main"}>
+          <img src={backgroundImage} alt="" />
+          <div className="post">
+            <div className="title">{title}</div>
+            <div className="contents">{contents}</div>
+          </div>
+          <hr />
+          <div className="writer">{writer}</div>
         </div>
-        <hr />
-        <div className="writer">{writer}</div>
-      </div>
+      </Link>
     </S.PostDiv>
   );
 }
