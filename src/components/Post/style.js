@@ -18,6 +18,7 @@ export const PostDiv = styled.div`
     font-weight: bold;
     width: 275px;
     margin-left: 5px;
+    text-decoration-line: none;
   }
   .contents {
     font-size: 15px;
