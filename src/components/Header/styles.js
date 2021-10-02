@@ -31,15 +31,24 @@ export const HeaderDiv = styled.div`
     margin-left: 3em;
     button {
       border: none;
-      background-color: #ffffff;
+      background-color: #F8F9FA;
       font-size: 20px;
       font-weight: bolder;
+      margin-right: 20px;
       img {
-          margin-right: 10px;
+        margin-right: 10px;
       }
     }
   }
-  button,img {
-      cursor: pointer;
+  hr {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3em;
+    background-color: #000000;
+    height: 1px;
+  }
+  button,
+  img {
+    cursor: pointer;
   }
 `;
