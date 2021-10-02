@@ -27,6 +27,7 @@ export default function Header() {
           <span>최신</span>
         </button>
       </div>
+      <hr width="100px"/>
     </S.HeaderDiv>
   );
 }
