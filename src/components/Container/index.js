@@ -12,7 +12,7 @@ export default function container() {
             <Header />
             <Mainpage />
           </Route>
-          <Route path="/detail">
+          <Route path="/detail/:postID">
               <PostDetail/>
           </Route>
         </Switch>

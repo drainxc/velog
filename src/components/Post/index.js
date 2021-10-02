@@ -2,7 +2,7 @@ import { useState } from "react";
 import * as S from "./style";
 import { Link } from "react-router-dom";
 
-export default function Post({ title, writer, backgroundImage, contents }) {
+export default function Post({ title, writer, backgroundImage, contents, postID }) {
   const [onMouse, SetOnMouse] = useState(false);
 
   function onMouseOverEvent() {
@@ -15,7 +15,7 @@ export default function Post({ title, writer, backgroundImage, contents }) {
 
   return (
     <S.PostDiv onMouseOver={onMouseOverEvent} onMouseLeave={onMouseLeaveEvent}>
-      <Link to="/detail">
+      <Link to={`/detail/${postID}`}>
         <div className={onMouse ? "increase" : "main"}>
           <img src={backgroundImage} alt="" />
           <div className="post">
