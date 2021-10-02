@@ -17,16 +17,21 @@ export const PostDiv = styled.div`
     font-size: 25px;
     font-weight: bold;
     width: 275px;
+    margin-left: 5px;
   }
   .contents {
     font-size: 15px;
     width: 275px;
+    margin-left: 5px;
   }
   .post {
     height: 165px;
   }
   hr {
     width: 275px;
+  }
+  .writer {
+    margin-left: 5px;
   }
   .increase {
     overflow-x: hidden;
