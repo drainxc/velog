@@ -10,13 +10,9 @@ export default function Header() {
 
   const el = useRef();
   const q = gsap.utils.selector(el);
-  
-  function leftMove() {
-    gsap.to(q(".line"), { x: 0 });
-  }
 
-  function rightMove() {
-    gsap.to(q(".line"), { x: 110 });
+  function move(value) {
+    gsap.to(q(".line"), { x: value });
   }
 
   return (
@@ -31,11 +27,11 @@ export default function Header() {
         </span>
       </div>
       <div className="bottom">
-        <button onClick={leftMove}>
+        <button onClick={move}>
           <img src={arrow} alt="" className="tranding" />
           <span>트렌딩</span>
         </button>
-        <button onClick={rightMove}>
+        <button onClick={() => move(110)}>
           <img src={clock} ait="" className="latest" />
           <span>최신</span>
         </button>
