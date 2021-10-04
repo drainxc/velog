@@ -1,12 +1,17 @@
 import styled from "styled-components";
 
 export const HeaderDiv = styled.div`
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap');
   .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 3em;
-    margin-bottom: 3em;
+    margin: 1.5em 3em 3em;
+    .title {
+      font-family: 'Fira Sans', sans-serif !important;
+      font-size: 25px;
+      font-weight: 600;
+    }
     .logo {
       width: 150px;
     }
@@ -31,7 +36,7 @@ export const HeaderDiv = styled.div`
     margin-left: 3em;
     button {
       border: none;
-      background-color: #F8F9FA;
+      background-color: #f8f9fa;
       font-size: 20px;
       font-weight: bolder;
       margin-right: 20px;
