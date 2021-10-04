@@ -6,7 +6,7 @@ import arrow from "../../asset/stock.png";
 import clock from "../../asset/clock.png";
 import gsap from "gsap";
 
-export default function Header({ bottom }) {
+export default function Header({ change, title }) {
   const el = useRef();
   const q = gsap.utils.selector(el);
 
@@ -17,15 +17,16 @@ export default function Header({ bottom }) {
   return (
     <S.HeaderDiv ref={el}>
       <div className="top">
-        <span>
-          <span className="title">velog</span>
+        <span className="mainTitle">
+          {change ? "" : <img src={logo} alt="" />}
+          <span>{title}</span>
         </span>
         <span>
           <img src={search} alt="" className="search" />
           <button className="login">로그인</button>
         </span>
       </div>
-      {bottom ? (
+      {change ? (
         <>
           <div className="bottom">
             <button onClick={move}>

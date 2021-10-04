@@ -7,10 +7,15 @@ export const HeaderDiv = styled.div`
     justify-content: space-between;
     align-items: center;
     margin: 1.5em 3em 3em;
-    .title {
+    .mainTitle {
+      display: inline-flex;
       font-family: 'Fira Sans', sans-serif !important;
       font-size: 25px;
       font-weight: 600;
+      img {
+        width: 30px;
+        margin-right: 0.5em;
+      }
     }
     .logo {
       width: 150px;
