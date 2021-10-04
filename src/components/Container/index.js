@@ -11,12 +11,13 @@ export default function Container() {
         <Switch>
           <Route exact path="/">
             <S.MainPageDiv>
-              <Header classname="Header" />
-              <MainPage classname="MainPage" />
+              <Header bottom={true}/>
+              <MainPage />
             </S.MainPageDiv>
           </Route>
           <Route path="/detail/:postID">
             <S.PostDetailDiv>
+              <Header bottom={false}/>
               <PostDetail />
             </S.PostDetailDiv>
           </Route>
