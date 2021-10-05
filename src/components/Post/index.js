@@ -21,7 +21,10 @@ export default function Post({
 
   return (
     <S.PostDiv onMouseOver={onMouseOverEvent} onMouseLeave={onMouseLeaveEvent}>
-      <Link to={`/detail/${postID}`} style={{textDecoration: 'none', color: '#000000'}}>
+      <Link
+        to={`/detail/${postID}`}
+        style={{ textDecoration: "none", color: "#000000" }}
+      >
         <div className={onMouse ? "increase" : "main"}>
           <img src={backgroundImage} alt="" />
           <div className="post">

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderDiv = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap');
+  @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap");
   .top {
     display: flex;
     justify-content: space-between;
@@ -9,7 +9,7 @@ export const HeaderDiv = styled.div`
     margin: 1.5em 3em 3em;
     .mainTitle {
       display: inline-flex;
-      font-family: 'Fira Sans', sans-serif !important;
+      font-family: "Fira Sans", sans-serif !important;
       font-size: 25px;
       font-weight: 600;
       img {

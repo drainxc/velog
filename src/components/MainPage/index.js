@@ -3,7 +3,7 @@ import * as S from "./styles";
 import { data } from "../../lib/export/data";
 
 export default function Mainpage() {
-    console.log(data)
+  console.log(data);
   return (
     <S.MainDiv>
       <div className="container">

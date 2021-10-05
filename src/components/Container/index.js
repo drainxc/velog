@@ -11,13 +11,13 @@ export default function Container() {
         <Switch>
           <Route exact path="/">
             <S.MainPageDiv>
-              <Header change={true} title="velog"/>
+              <Header change={true} title="velog" />
               <MainPage />
             </S.MainPageDiv>
           </Route>
           <Route path="/detail/:postID">
             <S.PostDetailDiv>
-              <Header change={false} title="writer.log"/>
+              <Header change={false} title="writer.log" />
               <PostDetail />
             </S.PostDetailDiv>
           </Route>
