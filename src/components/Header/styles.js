@@ -21,8 +21,19 @@ export const HeaderDiv = styled.div`
       width: 150px;
     }
     .search {
-      width: 20px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 24px;
       margin-right: 1em;
+    }
+    .search > img {
+      width: 20px;
+    }
+    .search:hover {
+      background-color: #EDEEEF;
     }
     .login {
       margin-right: 2em;

@@ -22,14 +22,16 @@ export default function Header({ change, title }) {
           <span>{title}</span>
         </span>
         <span>
-          <img src={search} alt="" className="search" />
+          <span className="search">
+            <img src={search} alt="" />
+          </span>
           <button className="login">로그인</button>
         </span>
       </div>
       {change ? (
         <>
           <div className="bottom">
-            <button onClick={move}>
+            <button onClick={() => move(0)}>
               <img src={arrow} alt="" className="tranding" />
               <span>트렌딩</span>
             </button>
