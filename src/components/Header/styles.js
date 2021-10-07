@@ -27,12 +27,16 @@ export const HeaderDiv = styled.div`
     .login {
       margin-right: 2em;
       color: #ffffff;
-      background-color: #000000;
-      height: 2.5em;
-      width: 6em;
+      background-color: #343a40;
+      height: 2em;
+      width: 5em;
       border-radius: 24px;
       border: none;
+      font-size: 17px;
       font-weight: bolder;
+    }
+    .login:hover {
+      background-color: #868E96;
     }
   }
   .bottom {
