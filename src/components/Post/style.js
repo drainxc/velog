@@ -16,15 +16,21 @@ export const PostDiv = styled.div`
     object-fit: cover;
   }
   .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 25px;
     font-weight: bold;
-    width: 300px;
+    width: 290px;
     margin-left: 5px;
     text-decoration-line: none;
   }
   .contents {
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-size: 15px;
     width: 300px;
+    height: 100px;
     margin-left: 5px;
   }
   .post {
