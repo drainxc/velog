@@ -1,17 +1,21 @@
 import styled from "styled-components";
 
 export const PostDiv = styled.div`
-  .main {
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    border-radius: 12px;
-    width: 300px;
-    height: 400px;
-    background-color: #ffffff;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border-radius: 4px;
+  width: 100%;
+  height: 365px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.1);
+  transition: 0.5s;
+  &:hover {
+    box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.1);
+    transform: translateY(-20px);
   }
   img {
-    width: 300px;
+    width: 100%;
     height: 175px;
     object-fit: cover;
   }
@@ -21,8 +25,7 @@ export const PostDiv = styled.div`
     white-space: nowrap;
     font-size: 25px;
     font-weight: bold;
-    width: 290px;
-    margin-left: 5px;
+    width: 100%;
     text-decoration-line: none;
   }
   .contents {
@@ -30,39 +33,30 @@ export const PostDiv = styled.div`
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     word-break: break-all;
-    width: 290px;
+    width: 100%;
     line-height: 20px;
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 15px;
-    margin-left: 10px;
   }
   .post {
-    height: 100px;
+    height: 90px;
     margin-bottom: 30px;
+    box-sizing: border-box;
+    padding: 0 10px;
   }
   .date {
-    color: #868E96;
+    color: #868e96;
     font-size: 12px;
     margin-left: 10px;
   }
   hr {
-    width: 300px;
-    background-color: #000000;
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: rgb(248, 249, 250);
   }
   .writer {
     margin-left: 10px;
-  }
-  .increase {
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    border-radius: 12px;
-    width: 300px;
-    height: 400px;
-    background-color: #ffffff;
-    transition: all 0.1s ease;
-    transform: scale(1.1);
-    box-shadow: 0px 0px 20px rgb(180, 180, 180);
   }
 `;

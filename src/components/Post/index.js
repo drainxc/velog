@@ -7,33 +7,26 @@ export default function Post({
   writer,
   backgroundImage,
   contents,
+  date,
+  comment,
   postID,
 }) {
-  const [onMouse, SetOnMouse] = useState(false);
-
-  function onMouseOverEvent() {
-    SetOnMouse(true);
-  }
-
-  function onMouseLeaveEvent() {
-    SetOnMouse(false);
-  }
-
   return (
-    <S.PostDiv onMouseOver={onMouseOverEvent} onMouseLeave={onMouseLeaveEvent}>
+    <S.PostDiv>
       <Link
         to={`/detail/${postID}`}
         style={{ textDecoration: "none", color: "#000000" }}
       >
-        <div className={onMouse ? "increase" : "main"}>
-          <img src={backgroundImage} alt="" />
-          <div className="post">
-            <div className="title">{title}</div>
-            <div className="contents">{contents}</div>
-          </div>
-          <hr />
-          <div className="writer">{writer}</div>
+        <img src={backgroundImage} alt="" />
+        <div className="post">
+          <div className="title">{title}</div>
+          <div className="contents">{contents}</div>
         </div>
+        <div className="date">
+          {date} · {comment}개의 댓글{" "}
+        </div>
+        <hr />
+        <div className="writer">{writer}</div>
       </Link>
     </S.PostDiv>
   );
