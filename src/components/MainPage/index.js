@@ -13,6 +13,8 @@ export default function Mainpage() {
             writer={post.name}
             backgroundImage={post.cover_url}
             contents={post.description}
+            date={post.date}
+            comment={post.comment}
             postID={post.id}
           />
         ))}
