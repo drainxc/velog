@@ -26,22 +26,32 @@ export const PostDiv = styled.div`
     text-decoration-line: none;
   }
   .contents {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    width: 290px;
+    line-height: 20px;
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 15px;
-    width: 300px;
-    height: 100px;
-    margin-left: 5px;
+    margin-left: 10px;
   }
   .post {
-    height: 165px;
+    height: 100px;
+    margin-bottom: 30px;
+  }
+  .date {
+    color: #868E96;
+    font-size: 12px;
+    margin-left: 10px;
   }
   hr {
     width: 300px;
     background-color: #000000;
   }
   .writer {
-    margin-left: 5px;
+    margin-left: 10px;
   }
   .increase {
     position: relative;
