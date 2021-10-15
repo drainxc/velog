@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "./components/Container";
-import GlobalStyle from "./styles";
+import GlobalStyle from "./style/styles";
 
 export default class App extends React.Component {
   render() {
