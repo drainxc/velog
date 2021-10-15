@@ -5,8 +5,7 @@ export const MainPageDiv = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
-  background-color: #f8f9fa;
+  height: 100%;
 `;
 
 export const PostDetailDiv = styled.div`
