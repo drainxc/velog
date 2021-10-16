@@ -9,10 +9,10 @@ export const PostDiv = styled.div`
   height: 365px;
   background-color: #ffffff;
   box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.1);
-  transition: 0.5s;
+  transition: 0.35s;
   &:hover {
     box-shadow: 0px 0px 20px rgb(0, 0, 0, 0.1);
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   img {
     width: 100%;
@@ -25,6 +25,7 @@ export const PostDiv = styled.div`
     white-space: nowrap;
     font-size: 25px;
     font-weight: bold;
+    padding-top: 10px;
     width: 100%;
     text-decoration-line: none;
   }
@@ -38,6 +39,7 @@ export const PostDiv = styled.div`
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 15px;
+    padding-top: 10px;
   }
   .post {
     height: 90px;
