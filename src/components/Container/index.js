@@ -22,7 +22,7 @@ export default function Container() {
             </S.PostDetailDiv>
           </Route>
         </Switch>
-      </BrowserRouter>
+      </BrowserRouter>  
     </>
   );
 }
