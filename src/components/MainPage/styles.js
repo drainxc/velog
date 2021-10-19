@@ -8,9 +8,15 @@ export const MainDiv = styled.div`
     width: 1250px;
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(20%, auto));
+    grid-template-columns: repeat(4, 1fr);
     grid-row-gap: 30px;
     grid-column-gap: 20px;
     padding: 30px 0px 60px;
+    @media screen and (max-width: 1200px) {
+      grid-template-columns: repeat(3, 1fr);    
+    }
+    @media screen and (max-width: 900px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 `;
