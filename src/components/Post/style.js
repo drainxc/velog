@@ -27,7 +27,6 @@ export const PostDiv = styled.div`
     font-weight: bold;
     padding-top: 10px;
     width: 100%;
-    text-decoration-line: none;
   }
   .contents {
     display: -webkit-box;
