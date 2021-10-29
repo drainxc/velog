@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const PostDiv = styled.div`
   position: relative;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
   border-radius: 4px;
   width: 100%;
   height: 365px;
