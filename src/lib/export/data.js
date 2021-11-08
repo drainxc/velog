@@ -47,7 +47,8 @@ export const data = [
     name: "1010",
     cover_url:
       "https://media.vlpt.us/images/haero_kim/post/84adee42-3e2f-4b9f-8ae5-d40d66e6d395/adapter.png?w=640",
-    description: "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
+    description:
+      "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
     date: "2021년 10월 14일",
     comment: 6,
     id: 5,
@@ -57,7 +58,8 @@ export const data = [
     name: "1010",
     cover_url:
       "https://media.vlpt.us/images/haero_kim/post/84adee42-3e2f-4b9f-8ae5-d40d66e6d395/adapter.png?w=640",
-    description: "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
+    description:
+      "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
     date: "2021년 10월 14일",
     comment: 6,
     id: 5,
@@ -67,7 +69,8 @@ export const data = [
     name: "1010",
     cover_url:
       "https://media.vlpt.us/images/haero_kim/post/84adee42-3e2f-4b9f-8ae5-d40d66e6d395/adapter.png?w=640",
-    description: "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
+    description:
+      "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
     date: "2021년 10월 14일",
     comment: 6,
     id: 5,
@@ -77,7 +80,8 @@ export const data = [
     name: "1010",
     cover_url:
       "https://media.vlpt.us/images/haero_kim/post/84adee42-3e2f-4b9f-8ae5-d40d66e6d395/adapter.png?w=640",
-    description: "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
+    description:
+      "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
     date: "2021년 10월 14일",
     comment: 6,
     id: 5,
@@ -87,7 +91,8 @@ export const data = [
     name: "1010",
     cover_url:
       "https://media.vlpt.us/images/haero_kim/post/84adee42-3e2f-4b9f-8ae5-d40d66e6d395/adapter.png?w=640",
-    description: "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
+    description:
+      "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
     date: "2021년 10월 14일",
     comment: 6,
     id: 5,
@@ -97,7 +102,8 @@ export const data = [
     name: "1010",
     cover_url:
       "https://media.vlpt.us/images/haero_kim/post/84adee42-3e2f-4b9f-8ae5-d40d66e6d395/adapter.png?w=640",
-    description: "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
+    description:
+      "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
     date: "2021년 10월 14일",
     comment: 6,
     id: 5,
@@ -107,7 +113,8 @@ export const data = [
     name: "1010",
     cover_url:
       "https://media.vlpt.us/images/haero_kim/post/84adee42-3e2f-4b9f-8ae5-d40d66e6d395/adapter.png?w=640",
-    description: "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
+    description:
+      "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
     date: "2021년 10월 14일",
     comment: 6,
     id: 5,
@@ -117,7 +124,8 @@ export const data = [
     name: "1010",
     cover_url:
       "https://media.vlpt.us/images/haero_kim/post/84adee42-3e2f-4b9f-8ae5-d40d66e6d395/adapter.png?w=640",
-    description: "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
+    description:
+      "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
     date: "2021년 10월 14일",
     comment: 6,
     id: 5,
@@ -127,7 +135,8 @@ export const data = [
     name: "1010",
     cover_url:
       "https://media.vlpt.us/images/haero_kim/post/84adee42-3e2f-4b9f-8ae5-d40d66e6d395/adapter.png?w=640",
-    description: "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
+    description:
+      "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
     date: "2021년 10월 14일",
     comment: 6,
     id: 5,
@@ -137,7 +146,8 @@ export const data = [
     name: "1010",
     cover_url:
       "https://media.vlpt.us/images/haero_kim/post/84adee42-3e2f-4b9f-8ae5-d40d66e6d395/adapter.png?w=640",
-    description: "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
+    description:
+      "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
     date: "2021년 10월 14일",
     comment: 6,
     id: 5,
@@ -147,10 +157,10 @@ export const data = [
     name: "1010",
     cover_url:
       "https://media.vlpt.us/images/haero_kim/post/84adee42-3e2f-4b9f-8ae5-d40d66e6d395/adapter.png?w=640",
-    description: "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
+    description:
+      "실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 실생활로부터 Adapter Pattern 이해하기 ",
     date: "2021년 10월 14일",
     comment: 6,
     id: 5,
   },
-  
 ];

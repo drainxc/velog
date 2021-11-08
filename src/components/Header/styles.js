@@ -33,7 +33,7 @@ export const HeaderDiv = styled.div`
       width: 20px;
     }
     .search:hover {
-      background-color: #EDEEEF;
+      background-color: #edeeef;
     }
     .login {
       margin-right: 2em;
@@ -47,7 +47,7 @@ export const HeaderDiv = styled.div`
       font-weight: bolder;
     }
     .login:hover {
-      background-color: #868E96;
+      background-color: #868e96;
     }
   }
   .bottom {

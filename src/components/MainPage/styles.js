@@ -13,7 +13,7 @@ export const MainDiv = styled.div`
     grid-column-gap: 20px;
     padding: 30px 0px 60px;
     @media screen and (max-width: 1200px) {
-      grid-template-columns: repeat(3, 1fr);    
+      grid-template-columns: repeat(3, 1fr);
     }
     @media screen and (max-width: 900px) {
       grid-template-columns: repeat(2, 1fr);
